@@ -89,6 +89,43 @@ section.hero .image-container img {
 }
 
 /* Info styles */
+section.info {
+  margin: 0 300px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.info h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  padding: 1em;
+}
+
+section.info .item-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item .bordered-content {
+  aspect-ratio: 1;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.item p {
+  padding-top: 5px;
+  text-align: center;
+}
 
 /* Quote styles */
 
