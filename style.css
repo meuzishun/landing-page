@@ -99,23 +99,26 @@ section.hero .container .image-container img.hero-image {
 
 /* Info styles */
 section.info {
-  margin: 0 300px;
+  margin: 0 auto;
+  max-width: 1024px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-section.info h2 {
+section.info .container h2 {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937;
-  padding: 1em;
+  margin: 1em;
+  text-align: center;
 }
 
-section.info .item-container {
+section.info .container .item-container {
+  padding: 0 96px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 48px;
 }
 
