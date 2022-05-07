@@ -148,10 +148,37 @@ section.quote cite {
 }
 
 /* action-call styles */
+section.action-call {
+  padding: 100px 200px;
+}
+
+section.action-call .container {
+  background-color: #3882f6;
+  padding: 48px 72px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.action-call .container .content h3 {
+  color: white;
+}
+
+section.action-call .container .content p {
+  color: white;
+  font-weight: lighter;
+}
+
+section.action-call .container button {
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
 
 /* footer styles */
 footer {
-  padding: 24px;
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -159,5 +186,6 @@ footer {
 }
 
 footer p {
+  padding: 24px;
   color: white;
 }
