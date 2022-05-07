@@ -47,18 +47,18 @@ main {
   flex-direction: column;
 }
 
+/* Hero styles */
 section.hero {
   padding: 150px 200px;
   background-color: #1f2937;
   display: flex;
 }
 
-/* Hero styles */
 section.hero div {
   flex: 1;
 }
 
-section.hero div h1 {
+section.hero .content h1 {
   font-size: 48px;
   color: #f9faf8;
 }
@@ -69,9 +69,23 @@ section.hero div p {
 }
 
 section.hero div button {
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 12px;
 }
 
 section.hero .image-container {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.hero .image-container img {
+  color: white;
 }
 
 /* Info styles */
