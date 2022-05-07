@@ -17,24 +17,29 @@ body {
 
 /* header styles */
 header {
-  padding: 24px 200px;
-  display: flex;
-  justify-content: space-between;
   background-color: #1f2937;
 }
 
-header h3 {
+header .container {
+  margin: 0 auto;
+  padding: 24px;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container h3 {
   color: #f9faf8;
   font-size: 24px;
 }
 
-header ul {
+header .container ul {
   list-style: none;
   display: flex;
   gap: 25px;
 }
 
-header ul li a {
+header .container ul li a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
