@@ -142,17 +142,23 @@ section.info .container .item-container {
 /* Quote styles */
 section.quote {
   background-color: #e5e7eb;
-  padding: 120px 300px;
+  padding: 120px;
 }
 
-section.quote blockquote {
+section.quote .container {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 96px;
+}
+
+section.quote .container blockquote {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
 }
 
-section.quote cite {
+section.quote .container cite {
   font-weight: bold;
   font-style: normal;
   display: block;
