@@ -1,0 +1,94 @@
+/* overall doc styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* header styles */
+header {
+  padding: 24px 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+header h3 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+header ul li a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* main styles */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section.hero {
+  padding: 150px 200px;
+  background-color: #1f2937;
+  display: flex;
+}
+
+/* Hero styles */
+section.hero div {
+  flex: 1;
+}
+
+section.hero div h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+section.hero div p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+section.hero div button {
+}
+
+section.hero .image-container {
+}
+
+/* Info styles */
+
+/* Quote styles */
+
+/* action-call styles */
+
+/* footer styles */
+footer {
+  padding: 24px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+}
