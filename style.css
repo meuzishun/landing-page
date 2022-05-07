@@ -142,13 +142,12 @@ section.info .container .item-container {
 /* Quote styles */
 section.quote {
   background-color: #e5e7eb;
-  padding: 120px;
 }
 
 section.quote .container {
   margin: 0 auto;
   max-width: 1024px;
-  padding: 96px;
+  padding: 120px 96px;
 }
 
 section.quote .container blockquote {
@@ -171,6 +170,8 @@ section.action-call {
 }
 
 section.action-call .container {
+  margin: 0 auto;
+  max-width: 1024px;
   background-color: #3882f6;
   padding: 48px 72px;
   border-radius: 8px;
