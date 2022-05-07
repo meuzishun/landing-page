@@ -21,8 +21,7 @@ header {
 }
 
 header .container {
-  margin: 0 auto;
-  padding: 24px;
+  margin: 24px auto;
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
@@ -54,26 +53,31 @@ main {
 
 /* Hero styles */
 section.hero {
-  padding: 150px 200px;
   background-color: #1f2937;
-  display: flex;
 }
 
-section.hero div {
+section.hero .container {
+  margin: 120px auto;
+  max-width: 1024px;
+  display: flex;
+  gap: 50px;
+}
+
+section.hero .container div {
   flex: 1;
 }
 
-section.hero .content h1 {
+section.hero .container .content h1 {
   font-size: 48px;
   color: #f9faf8;
 }
 
-section.hero div p {
+section.hero .container div p {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-section.hero div button {
+section.hero .container div button {
   color: white;
   background-color: #3882f6;
   padding: 8px 32px;
@@ -82,14 +86,14 @@ section.hero div button {
   margin-top: 12px;
 }
 
-section.hero .image-container {
+section.hero .container .image-container {
   background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-section.hero .image-container img {
+section.hero .container .image-container img.hero-image {
   color: white;
 }
 
