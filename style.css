@@ -91,7 +91,7 @@ section.hero .image-container img {
 /* Info styles */
 section.info {
   margin: 0 300px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +128,24 @@ section.info .item-container {
 }
 
 /* Quote styles */
+section.quote {
+  background-color: #e5e7eb;
+  padding: 120px 300px;
+}
+
+section.quote blockquote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+section.quote cite {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  text-align: right;
+}
 
 /* action-call styles */
 
